@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8">
+<title>Meu Mundo</title>
+
+<style>
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background: linear-gradient(#ffb6f9, #8ee7ff);
+    text-align: center;
+}
+
+/* Título em imagem */
+.titulo {
+    background: white;
+    padding: 20px;
+}
+
+.titulo img {
+    max-width: 90%;
+    height: auto;
+}
+
+/* Galeria */
+.galeria {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 25px;
+    padding: 40px;
+}
+
+.galeria img {
+    width: 280px;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 20px;
+    border: 5px solid white;
+    transition: 0.3s;
+}
+
+.galeria img:hover {
+    transform: scale(1.1);
+}
+
+/* Final */
+.final {
+    background: white;
+    margin: 40px;
+    padding: 40px;
+    border-radius: 30px;
+    font-size: 40px;
+}
+
+</style>
+
+</head>
+
+<body>
+
+<!-- COLOQUE SUA IMAGEM DE TÍTULO AQUI -->
+<div class="titulo">
+    <img src="titulo.png" alt="Título">
+</div>
+
+
+<div class="galeria">
+
+<img src="imagem1.jpg">
+<img src="imagem2.jpg">
+<img src="imagem3.jpg">
+<img src="imagem4.jpg">
+<img src="imagem5.jpg">
+
+</div>
+
+
+<div class="final">
+    É só isso.
+</div>
+
+
+</body>
+</html>
